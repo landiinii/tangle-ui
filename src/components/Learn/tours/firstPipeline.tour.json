@@ -22,16 +22,16 @@
       "targetFolderName": "Standard library"
     },
     {
-      "selector": "[data-folder-name=\"Quick start\"]",
+      "selector": "[data-folder-name=\"Datasets\"]",
       "mutationObservables": [
         "[data-dock-window-content=\"component-library\"]"
       ],
       "resizeObservables": ["[data-dock-window-content=\"component-library\"]"],
-      "content": "Now open **Quick start** to see three premade components.",
+      "content": "Now open **Datasets** to see the available dataset components.",
       "position": "right",
       "stepInteraction": true,
       "interaction": "expand-folder",
-      "targetFolderName": "Quick start"
+      "targetFolderName": "Datasets"
     },
     {
       "selector": "[data-component-name=\"Chicago Taxi Trips dataset\"]",
@@ -82,7 +82,7 @@
         "[data-dock-window-content=\"component-library\"]"
       ],
       "resizeObservables": ["[data-dock-window-content=\"component-library\"]"],
-      "content": "Now add **Train XGBoost model on CSV** onto the canvas.\n\nFind it however you like. Search for **train**, or clear the search box and browse Quick start.",
+      "content": "Now add **Train XGBoost model on CSV** onto the canvas.\n\nFind it however you like. Search for **train**, or clear the search box and browse ML frameworks → XGBoost.",
       "stepInteraction": true,
       "interaction": "add-task",
       "targetTaskName": "Train XGBoost model on CSV"
